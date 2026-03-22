@@ -23,7 +23,7 @@ export default function Home() {
       <nav ref={navRef} className="sticky top-0 z-50 border-b border-yellow-100 bg-white/80 backdrop-blur-md">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <button onClick={scrollToTop} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-            <img src="assets/logo.jpg" alt="Dra. Graziela Prin Logo" className="h-12 w-auto rounded-full shadow-md" />
+            <img src="/assets/logo.jpg" alt="Dra. Graziela Prin Logo" className="h-12 w-auto rounded-full shadow-md" />
             <div>
               <div className="text-sm text-yellow-600 font-semibold tracking-wide">CLÍNICA ODONTOLÓGICA</div>
               <div className="text-xl font-light text-slate-900">Dra. Graziela Prin</div>
@@ -75,7 +75,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-br from-yellow-100 to-pink-100 rounded-3xl blur-2xl opacity-40"></div>
             <div className="relative aspect-square rounded-3xl overflow-hidden shadow-2xl border-2 border-yellow-200">
               <img 
-                src="assets/dentista.png" 
+                src="/assets/dentista.png" 
                 alt="Dra. Graziela Prin" 
                 className="w-full h-full object-cover"
               />
@@ -191,7 +191,7 @@ export default function Home() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-br from-yellow-100 to-pink-100 rounded-3xl blur-xl opacity-50"></div>
                 <img 
-                  src="assets/logo.jpg" 
+                  src="/assets/logo.jpg" 
                   alt="Logo Clínica" 
                   className="w-full max-w-sm mx-auto rounded-3xl shadow-2xl border-2 border-yellow-200 relative"
                 />
@@ -341,7 +341,7 @@ export default function Home() {
         <div className="container mx-auto px-4 relative">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-4">
             <button onClick={scrollToTop} className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-              <img src="assets/logo.jpg" alt="Logo" className="h-10 w-auto rounded-full shadow-lg" />
+              <img src="/assets/logo.jpg" alt="Logo" className="h-10 w-auto rounded-full shadow-lg" />
               <div>
                 <div className="text-xs text-yellow-400 font-light tracking-wide">CLÍNICA ODONTOLÓGICA</div>
                 <span className="text-lg font-light">Dra. Graziela Prin</span>
@@ -358,7 +358,7 @@ export default function Home() {
             <div className="flex items-center justify-center gap-2 mt-2">
               <p className="text-slate-400 font-light text-sm">Feito por</p>
               <a href="https://wa.me/5511951608812" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 group">
-                <img src="assets/jg_logo.jpg" alt="JG Digital Logo" className="h-5 w-auto" />
+                <img src="/assets/jg_logo.jpg" alt="JG Digital Logo" className="h-5 w-auto" />
                 <span className="text-yellow-400 font-semibold group-hover:text-yellow-300 transition-colors">JG Digital</span>
               </a>
             </div>
